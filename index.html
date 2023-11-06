@@ -1,0 +1,104 @@
+<!-- FIRST ATTMPET -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Modes in Directions</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <script src="/main.js"></script>
+    </head>
+    <body>
+
+        <div id="floating-panel">
+
+            <div>
+                <div>
+                    <input type="text" id="from" placeholder="Origin">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <input type="text" id="to" placeholder="Destination">
+                </div>
+            </div>
+            <b>Mode of Travel</b>
+            <select id="mode">
+                <option value="DRIVING">Driving</option>
+                <option value="WALKING">Walking</option>
+                <option value="BIKING">Biking</option>
+                <option value="Transit">Transit</option>
+            </select>
+        </div>
+
+        <div id="map"></div>
+
+        <div id="output">
+            <p id="distance">Distance: </p>
+            <p id="duration">Duration: </p>
+        </div>
+
+        <div><p id="crime">list of crime around your destination: </p></div>
+
+        <img src = sdrve-high-resolution-logo-transparent.png style= "width: 100px; height: 32.8px">
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAABcxewA_AdDlps47xj-iuHu6TGiR99zs&callback=initMap&libraries=&v=weekly"
+            async
+        ></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAABcxewA_AdDlps47xj-iuHu6TGiR99zs&callback=initMap&libraries=&v=weekly"
+            async
+        ></script>
+    </body>
+</html>
+
+<!-- SECOND ATTEMPT -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sdrve</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit/fontawesome.com/ab2155e76b.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="/style.css" rel="'stylesheet" />
+</head>
+<body>
+    
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <h1>Sdrve</h1>
+            <p>For safer travels</p>
+            <form class="form-horzontal">
+
+                <div class="form-group">
+                    <label for="from" class="col-cs-2 control label"><i class="far fa-dot-circle"></i></label>
+                    <div class="col-xs-4">
+                        <input type="text" id="from" placeholder="Origin" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="to" class="col-cs-2 control label"><i class="fas fa-map-marker-alt"></i></label>
+                    <div class="col-xs-4">
+                        <input type="text" id="to" placeholder="Destination" class="form-control">
+                    </div>
+                </div>
+
+            </form>
+            <div class="col-xs-offset-2 col-xs-10">
+                <button class="btn btn-info btn-lg"></button>
+            </div>
+        </div>
+    </div> 
+
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAABcxewA_AdDlps47xj-iuHu6TGiR99zs&callback=initMap&libraries=&v=weekly"
+        async
+    ></script>
+    <script src="app.js"></script>
+</body>
+</html> -->
