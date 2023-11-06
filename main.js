@@ -36,10 +36,6 @@ function calculateAndDisplayRoute(directionsService, directionsRenderer) {
 
 }
 
-function Crime() {
-    
-}
-
 //function to calculate the time it takes and the distance that must be traveled
 // function calculateTimeAndDuration() {
 //     var request = {
